@@ -1,0 +1,107 @@
+/* 
+В этом проекте все пройдено, единственное над чем стоит заострить внимание, так это на !!!фреймворк bootstrap 5, а также генератор кода для html,css и js как webcode.tools!!!
+--------------------------------------------------
+*/
+@import url(https://fonts.googleapis.com/css?family=Poppins&display=swap);
+
+
+body {
+    font-family: Poppins, serif;
+    background: linear-gradient(270deg, #5e0101 0%, #000000 100%);
+}
+
+p {
+    color:rgb(248, 205, 156);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(59, 22, 196);
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgb(248, 205, 156);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(59, 22, 196);
+}
+
+.sidebar {
+    color: rgb(248, 205, 156);
+    background: linear-gradient(270deg, #5e0101 0%, #000000 100%);
+}
+
+.card {
+    background: linear-gradient(270deg, #5e0101 0%, #000000 100%);
+    color: rgb(248, 205, 156);
+}
+.card a {
+    text-decoration: none;
+    color: rgb(248, 205, 156);
+}
+
+.slide-text, 
+.footer-text {
+    color: rgb(248, 205, 156);
+    margin: auto auto;
+}
+
+
+footer {
+    border-top: 3px solid black;
+    background: linear-gradient(190deg, #5e0101 0%, #000000 100%);
+}
+.btn-outline-primary {
+    background: linear-gradient(190deg, #5e0101 0%, #000000 100%);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: anim-phone 3s ease 0s infinite normal forwards;
+}
+@keyframes anim-phone {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 100%;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
